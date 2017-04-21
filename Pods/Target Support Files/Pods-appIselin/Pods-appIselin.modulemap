@@ -1,0 +1,6 @@
+framework module Pods_appIselin {
+  umbrella header "Pods-appIselin-umbrella.h"
+
+  export *
+  module * { export * }
+}

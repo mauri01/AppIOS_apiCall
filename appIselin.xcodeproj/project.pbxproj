@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220CBB931EAA37F100EEA511 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 220CBB921EAA37F100EEA511 /* Podfile */; };
+		220CBB951EAA3A4300EEA511 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220CBB941EAA3A4300EEA511 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		22913DFF1EAA5EDA0074419E /* TextFieldEffects.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22913DFE1EAA5EDA0074419E /* TextFieldEffects.framework */; };
 		22FD3D271EA79D5700984F07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3D261EA79D5700984F07 /* AppDelegate.swift */; };
 		22FD3D291EA79D5700984F07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3D281EA79D5700984F07 /* ViewController.swift */; };
 		22FD3D2C1EA79D5700984F07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FD3D2A1EA79D5700984F07 /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		22FD3D311EA79D5700984F07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FD3D2F1EA79D5700984F07 /* LaunchScreen.storyboard */; };
 		22FD3D3C1EA79D5800984F07 /* appIselinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3D3B1EA79D5800984F07 /* appIselinTests.swift */; };
 		22FD3D471EA79D5800984F07 /* appIselinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3D461EA79D5800984F07 /* appIselinUITests.swift */; };
+		22FD3D551EA7A38A00984F07 /* ViewTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FD3D541EA7A38A00984F07 /* ViewTwo.swift */; };
+		7F5A0E06847833C17540BCAA /* Pods_appIselin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8113BE20E102245770956F1B /* Pods_appIselin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14A399BAA951CC4016BCCF99 /* Pods-appIselin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appIselin.release.xcconfig"; path = "Pods/Target Support Files/Pods-appIselin/Pods-appIselin.release.xcconfig"; sourceTree = "<group>"; };
+		220CBB921EAA37F100EEA511 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
+		220CBB941EAA3A4300EEA511 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/appIselin-fyjsxxqjvoioghdoypvckurakwxz/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		22913DFE1EAA5EDA0074419E /* TextFieldEffects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TextFieldEffects.framework; path = "../../Library/Developer/Xcode/DerivedData/appIselin-fyjsxxqjvoioghdoypvckurakwxz/Build/Products/Debug-iphonesimulator/TextFieldEffects/TextFieldEffects.framework"; sourceTree = "<group>"; };
 		22FD3D231EA79D5700984F07 /* appIselin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appIselin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FD3D261EA79D5700984F07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22FD3D281EA79D5700984F07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		22FD3D421EA79D5800984F07 /* appIselinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appIselinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FD3D461EA79D5800984F07 /* appIselinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appIselinUITests.swift; sourceTree = "<group>"; };
 		22FD3D481EA79D5800984F07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FD3D541EA7A38A00984F07 /* ViewTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewTwo.swift; sourceTree = "<group>"; };
+		8113BE20E102245770956F1B /* Pods_appIselin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appIselin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8BCA28335F81B8D846212A /* Pods-appIselin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appIselin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-appIselin/Pods-appIselin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22913DFF1EAA5EDA0074419E /* TextFieldEffects.framework in Frameworks */,
+				220CBB951EAA3A4300EEA511 /* SwiftyJSON.framework in Frameworks */,
+				7F5A0E06847833C17540BCAA /* Pods_appIselin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				22FD3D3A1EA79D5800984F07 /* appIselinTests */,
 				22FD3D451EA79D5800984F07 /* appIselinUITests */,
 				22FD3D241EA79D5700984F07 /* Products */,
+				273F5914E9E309C5937800F1 /* Pods */,
+				291D915FEECD9BA0F1697E9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +114,11 @@
 		22FD3D251EA79D5700984F07 /* appIselin */ = {
 			isa = PBXGroup;
 			children = (
+				220CBB921EAA37F100EEA511 /* Podfile */,
 				22FD3D261EA79D5700984F07 /* AppDelegate.swift */,
 				22FD3D281EA79D5700984F07 /* ViewController.swift */,
 				22FD3D2A1EA79D5700984F07 /* Main.storyboard */,
+				22FD3D541EA7A38A00984F07 /* ViewTwo.swift */,
 				22FD3D2D1EA79D5700984F07 /* Assets.xcassets */,
 				22FD3D2F1EA79D5700984F07 /* LaunchScreen.storyboard */,
 				22FD3D321EA79D5700984F07 /* Info.plist */,
@@ -125,6 +144,25 @@
 			path = appIselinUITests;
 			sourceTree = "<group>";
 		};
+		273F5914E9E309C5937800F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED8BCA28335F81B8D846212A /* Pods-appIselin.debug.xcconfig */,
+				14A399BAA951CC4016BCCF99 /* Pods-appIselin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		291D915FEECD9BA0F1697E9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22913DFE1EAA5EDA0074419E /* TextFieldEffects.framework */,
+				220CBB941EAA3A4300EEA511 /* SwiftyJSON.framework */,
+				8113BE20E102245770956F1B /* Pods_appIselin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22FD3D4B1EA79D5800984F07 /* Build configuration list for PBXNativeTarget "appIselin" */;
 			buildPhases = (
+				2AF276AE61728ABAD63D6610 /* [CP] Check Pods Manifest.lock */,
 				22FD3D1F1EA79D5700984F07 /* Sources */,
 				22FD3D201EA79D5700984F07 /* Frameworks */,
 				22FD3D211EA79D5700984F07 /* Resources */,
+				30150E8F82BCC3D65A28555B /* [CP] Embed Pods Frameworks */,
+				DC6C3142DA50F9F9DE10A4CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +275,7 @@
 			files = (
 				22FD3D311EA79D5700984F07 /* LaunchScreen.storyboard in Resources */,
 				22FD3D2E1EA79D5700984F07 /* Assets.xcassets in Resources */,
+				220CBB931EAA37F100EEA511 /* Podfile in Resources */,
 				22FD3D2C1EA79D5700984F07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,6 +296,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AF276AE61728ABAD63D6610 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		30150E8F82BCC3D65A28555B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-appIselin/Pods-appIselin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC6C3142DA50F9F9DE10A4CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-appIselin/Pods-appIselin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22FD3D1F1EA79D5700984F07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +351,7 @@
 			files = (
 				22FD3D291EA79D5700984F07 /* ViewController.swift in Sources */,
 				22FD3D271EA79D5700984F07 /* AppDelegate.swift in Sources */,
+				22FD3D551EA7A38A00984F07 /* ViewTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +503,7 @@
 		};
 		22FD3D4C1EA79D5800984F07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED8BCA28335F81B8D846212A /* Pods-appIselin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = appIselin/Info.plist;
@@ -424,6 +516,7 @@
 		};
 		22FD3D4D1EA79D5800984F07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14A399BAA951CC4016BCCF99 /* Pods-appIselin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = appIselin/Info.plist;
@@ -507,6 +600,7 @@
 				22FD3D4D1EA79D5800984F07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22FD3D4E1EA79D5800984F07 /* Build configuration list for PBXNativeTarget "appIselinTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +609,7 @@
 				22FD3D501EA79D5800984F07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22FD3D511EA79D5800984F07 /* Build configuration list for PBXNativeTarget "appIselinUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +618,7 @@
 				22FD3D531EA79D5800984F07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
