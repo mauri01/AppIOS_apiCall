@@ -9,4 +9,8 @@ https://api.randomuser.me para obtener mediante GET los datos
 
 http://requestb.in/ para enviar consultas POST
 
-se integra "SwiftyJSON" para tratar los objectJSON 
+Se integra: 
+
+"SwiftyJSON" para tratar los objectJSON 
+
+Custom UITextFields effects
